@@ -4,9 +4,9 @@ public class Stringpalindrome {
 	public static void main(String[] args) {
 		String s = "dad" ;
 		String a = " " ;
-		int length=s.length();
+		int length = s.length();
 		for(int i = length-1;i>=0;i--)
-			a=a+s.charAt(i);
+			a = a+s.charAt(i);
 			if(a.equals(s))
 			{
 				System.out.print("string is palindrome");
