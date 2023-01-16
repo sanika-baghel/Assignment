@@ -1,7 +1,9 @@
 Assignments/bin
-*.settings
-*.classpath
-*.project
+.settings
+.classpath
+.project
+*.class
+.testing
 
 
 
