@@ -60,14 +60,16 @@ ul li a:hover {
 }
 
 .block-title {
-	font-size: 50px;
-	font-family: 'nautilus' _pompiliusregular ';
+	font-size : 50px;
+	text-align : center;
 }
-h3{
-	font-size : 30px;
-	font-family: 'nautilus' _pompiliusregular ';	
+
+h3 {
+	font-size: 30px;
+	text-align: center;
 }
-p{
-	font-size:20px;
-	font-family: 'nautilus' _pompiliusregular ';
+
+p {
+	font-size: 20px;
+	text-align: center;
 }
