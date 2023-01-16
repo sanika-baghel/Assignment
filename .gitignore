@@ -1,7 +1,7 @@
 Assignments/bin
-Assignments/.settings
-Assignments/.classpath
-Assignments/.project
+.settings/
+.classpath/
+.project/
 Assignments/src/module-info.java
 Library Management System/.settings
 Library Management System/.project
