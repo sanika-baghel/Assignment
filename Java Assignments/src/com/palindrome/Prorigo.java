@@ -1,4 +1,4 @@
-package com.palindrome;
+package src.com.palindrome;
 
 public class Prorigo {
 	public static void main(String[] args) {

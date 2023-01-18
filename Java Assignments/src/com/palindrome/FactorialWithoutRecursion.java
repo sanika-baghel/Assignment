@@ -1,4 +1,4 @@
-package com.palindrome;
+package src.com.palindrome;
 
 import java.util.*;
 
