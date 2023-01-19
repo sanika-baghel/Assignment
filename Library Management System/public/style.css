@@ -52,10 +52,16 @@ ul li a:hover {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+	background-color:white;
+	opacity:.4;
+}
+.title h4{
+	color: black;
+	font-size: 30px;
 }
 
 .title h1 {
-	color: #fff;
+	color: black;
 	font-size: 70px;
 }
 
