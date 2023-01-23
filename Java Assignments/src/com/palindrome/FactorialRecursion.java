@@ -1,4 +1,4 @@
-package src.com.palindrome;
+package com.palindrome;
 
 public class FactorialRecursion {
 	static int factorial(int n) {

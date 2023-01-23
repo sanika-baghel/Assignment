@@ -1,4 +1,4 @@
-package src.com.palindrome;
+package com.palindrome;
 
 public class Fibonacci {
     public static void main(String[] args) {

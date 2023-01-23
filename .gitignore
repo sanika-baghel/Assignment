@@ -4,6 +4,7 @@ Assignments/bin
 .project
 *.class
 .testing
+.metadata
 
 
 
