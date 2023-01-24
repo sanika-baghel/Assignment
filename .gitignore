@@ -1,10 +1,13 @@
-Assignments/bin
+Java Assignments/bin
+Java AssignmentII/bin
 .settings
 .classpath
 .project
 *.class
 .testing
 .metadata
+.bin
+.class
 
 
 
