@@ -1,7 +1,5 @@
 package assignmentII;
 
-import java.util.*;
-
 public class DuplicateElement {
 	public static void main(String args[]) {
 		int[] a = new int[] { 23, 38, 5, 2, 7, 8, 8, 5, 6, 23, 67, 4};
