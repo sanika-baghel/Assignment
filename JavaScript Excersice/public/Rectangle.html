@@ -1,0 +1,18 @@
+<!-- Write a JavaScript program to find the area of a triangle where lengths of the three of its sides are 5, 6, 7 -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<script>
+		var no1 = 5;
+		var no2 = 6;
+		var no3 = 7;
+		var s = (no1 + no2 + no3) / 2;
+		var area = Math.sqrt(s * ((s - no1) * (s - no2) * (s - no3)));
+		document.write(area);
+	</script>
+</body>
+</html>
