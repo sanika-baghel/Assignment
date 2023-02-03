@@ -32,13 +32,13 @@
 			<h1 style="text-align: center; font-size: 25px;">Student Login
 				Form</h1>
 			<br> <br>
-			<form name="login" action="">
+			<form name="login" action="" method="post">
 				<div class="box">
 					<input type="text" name="username" placeholder="username"
 						required=""><br> <br> <input type="password"
 						name="password" placeholder="password" required=""><br>
-					<br>
-					<button type ="button" id="loginBtn">Login</button>
+					<br> <input type="submit" name="" value="Login"
+						onclick="validate()">
 				</div>
 			</form>
 			<p style="color: white; text-align: center">
@@ -48,9 +48,19 @@
 			</p>
 		</div>
 	</section>
-<script>
-let loginBtn = document.getElementById("login");
-
+	<script>
+		function validate() {
+			var username = document.getElementById("username").value;
+			var password = document.getElementById("password").value;
+			if (username == "admin" && password == "user") {
+				alert("login succesfully");
+				return false;
+			}
+			else
+				{
+				alert("login failed");
+				}
+		}
 	</script>
 </body>
 </html>
