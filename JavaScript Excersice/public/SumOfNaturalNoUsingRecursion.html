@@ -1,0 +1,22 @@
+<!-- JavaScript Program to Find Sum of Natural Numbers Using Recursion-->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<script>
+		function sum(no) {
+			if (no > 0) {
+				return no + sum(no - 1);
+			} else {
+				return no;
+			}
+		}
+		const number = parseInt(prompt('Enter number'));
+		const result = sum(number);
+		document.write(`The sum is ${result}`);
+	</script>
+</body>
+</html>
