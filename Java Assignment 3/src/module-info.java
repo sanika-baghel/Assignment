@@ -5,5 +5,5 @@
  * @author sanikab
  *
  */
-module JavaAssignmentIII {
+module javaAssignment3 {
 }
