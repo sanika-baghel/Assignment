@@ -1,0 +1,19 @@
+<!--Find the greatest common divisor of two positive numbers -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<script>
+		var gcd = function(a, b) {
+			if (!b) {
+				return a;
+			}
+			return gcd(b, a % b);
+		};
+		document.write(gcd(21, 3));
+	</script>
+</body>
+</html>
