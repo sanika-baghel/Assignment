@@ -96,17 +96,6 @@ div.desc {
 	padding: 15px;
 	text-align: center;
 }
-/*  contact us*/
-ut[type=text], select, textarea {
-	width: 100%;
-	padding: 12px;
-	border: 1px solid #ccc;
-	border-radius: 4px;
-	box-sizing: border-box;
-	margin-top: 6px;
-	margin-bottom: 16px;
-	resize: vertical
-}
 
 input[type=submit] {
 	background-color: #04AA6D;
@@ -291,3 +280,4 @@ form .box{
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
