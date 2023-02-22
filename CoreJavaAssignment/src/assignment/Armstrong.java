@@ -3,7 +3,7 @@ package assignment;
 
 import java.util.*;
 
-public class armstrong {
+public class Armstrong {
 	public static void main(String[] args) {
 		int no, d, s = 0;
 		Scanner sc = new Scanner(System.in);
