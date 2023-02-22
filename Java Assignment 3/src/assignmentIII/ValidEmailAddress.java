@@ -1,6 +1,6 @@
 package assignmentIII;
 
-public class validEmailAddress {
+public class ValidEmailAddress {
 	static boolean isValid(String email) {
 		String r = ("[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,4}");
 		return email.matches(r);

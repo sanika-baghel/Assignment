@@ -1,6 +1,6 @@
 package assignmentIII;
 import java.util.*;
-public class primeNumb {
+public class PrimeNumb {
 	public static void main(String[] args) {
 		int n;
 		Scanner sc = new Scanner(System.in);

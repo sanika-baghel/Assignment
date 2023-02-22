@@ -1,11 +1,11 @@
 package assignmentIII;
 
-public class implementStack {
+public class ImplementStack {
 	private int arr[];
 	private int top;
 	private int capacity;
 
-	implementStack(int size) {
+	ImplementStack(int size) {
 		arr = new int[size];
 		capacity = size;
 		top = -1;
@@ -47,7 +47,7 @@ public class implementStack {
 	}
 
 	public static void main(String[] args) {
-		implementStack stack = new implementStack(5);
+		ImplementStack stack = new ImplementStack(5);
 		stack.push(1);
 		stack.push(2);
 		stack.push(3);

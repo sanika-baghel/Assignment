@@ -18,7 +18,6 @@ package assignment4;
 				= Stream.of(5, 13, 4,
 							2, 13, 27,
 							2, 9, 9, 34);
-			System.out.println(
-				findDuplicateInStream(stream));
+			System.out.println(findDuplicateInStream(stream));
 		}
 	}

@@ -3,7 +3,7 @@ package assignmentIII;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.*;
-public class validDate {
+public class ValidDate {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter a date in dd/mm/yyyy format");
