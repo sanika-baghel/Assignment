@@ -10,7 +10,7 @@ public class MultiplicationTable {
 		int no = sc.nextInt();
 		int a;
 		for (int i = 1; i <= 10; i++) {
-			a = no * i ;
+			a = no * i;
 			System.out.println(no + " * " + i + " = " + a);
 		}
 	}
