@@ -13,6 +13,7 @@ public class CommandLineWithException {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("enter divisible value");
 		n = sc.nextInt();
+
 		try {
 			float f = sum / n;
 			System.out.println("ans is " + f);
