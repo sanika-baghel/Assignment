@@ -3,7 +3,7 @@
 package assignment;
 
 public class SecondHighestNoOfArray {
-	static int arr[] = { 20, 10, 30, 50, 60, 55, 28 };
+	static int arr[] = { 20, 10, 30, 50, 60, 55, 28 ,58 };
 
 	static int Secondlargest() {
 		int max = arr[0];
@@ -20,6 +20,6 @@ public class SecondHighestNoOfArray {
 	}
 
 	public static void main(String args[]) {
-		System.out.println("Largest no : " + Secondlargest());
+		System.out.println("second Largest no : " + Secondlargest());
 	}
 }
