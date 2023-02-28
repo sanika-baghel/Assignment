@@ -5,18 +5,19 @@ import java.util.*;
 
 public class TreeSetWithCondition {
 	public static void main(String[] args) {
-		TreeSet<Integer> t = new TreeSet<Integer>();
 		TreeSet<Integer> tset = new TreeSet<Integer>();
-		t.add(10);
-		t.add(22);
-		t.add(36);
-		t.add(25);
-		t.add(16);
-		t.add(70);
-		t.add(82);
-		t.add(89);
-		t.add(14);
-		System.out.println("Less than or equal to 50 : " + t.floor(50));
-		System.out.println("Less than or equal to 89 : " + t.floor(89));
+		//SortedSet<Integer> tset = new TreeSet<Integer>();
+		//NavigableSet<Integer> tset = new TreeSet<Integer>();
+		tset.add(10);
+		tset.add(22);
+		tset.add(36);
+		tset.add(25);
+		tset.add(16);
+		tset.add(70);
+		tset.add(82);
+		tset.add(89);
+		tset.add(14);
+		System.out.println("Less than or equal to 50 : " + tset.headSet(50));
+		System.out.println("Less than or equal to 50 : " + tset.floor(50));
 	}
 }
