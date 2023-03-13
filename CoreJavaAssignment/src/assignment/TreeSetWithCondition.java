@@ -5,9 +5,9 @@ import java.util.*;
 
 public class TreeSetWithCondition {
 	public static void main(String[] args) {
-		TreeSet<Integer> tset = new TreeSet<Integer>();
+		//TreeSet<Integer> tset = new TreeSet<Integer>();
 		//SortedSet<Integer> tset = new TreeSet<Integer>();
-		//NavigableSet<Integer> tset = new TreeSet<Integer>();
+		NavigableSet<Integer> tset = new TreeSet<Integer>();
 		tset.add(10);
 		tset.add(22);
 		tset.add(36);
