@@ -7,7 +7,7 @@ import java.util.regex.Pattern;
 public class FindString {
 
 	public static void main(String[] args) {
-	    Matcher matcher = pattern.matcher(validate("parrot"));
+	    Matcher matcher = matcher(validate("parrot"));
 	    boolean matchFound = matcher.find();
 	}
 
