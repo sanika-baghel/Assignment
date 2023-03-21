@@ -12,7 +12,18 @@ public class Tree {
 		map.put(60, "pink");
 
 		System.out.println("Orginal TreeMap content " + map);
-		System.out.println("entry for 10 key " + map.headMap(10, true));
-		System.out.println("entry for 70 Key " + map.headMap(70, true));
+		int no;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter key");
+		no = sc.nextInt();
+		SortedMap<Integer , String> part = new TreeMap<>();
+		for (Map.Entry<Integer,String>entry : map.entrySet()) {
+			if(entry.getKey()<= no) {
+				part.put(entry.getKey(), entry.getValue());
+			}
+		}
+		System.out.println("checking entry for"+" "+no+":");
+		System.out.println("keys :"+ part);
+
 		}
 	}
