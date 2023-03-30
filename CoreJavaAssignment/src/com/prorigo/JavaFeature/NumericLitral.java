@@ -12,10 +12,5 @@ public class NumericLitral {
 		int c = 0B10_10; // Underscore in binary literal
 		System.out.println("c = " + c);
 
-		int d = 0x1_1; // Underscore in hexadecimal literal
-		System.out.println("d = " + d);
-
-		int e = 01_1; // Underscore in octal literal
-		System.out.println("e = " + e);
 	}
 }

@@ -5,7 +5,7 @@ public class AutoboxingExample {
 		    int a=50;  
 		        Integer b=new Integer(a); //Boxing  
 		  
-		        Integer c=5;//Boxing  
+		        Integer c=5; //Boxing  
 		          
 		        System.out.println(b+" "+c);  
 		 }   

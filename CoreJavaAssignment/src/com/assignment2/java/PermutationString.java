@@ -11,7 +11,6 @@ public class PermutationString {
 		for (int i = 0; i < str.length(); i++) {
 			char ch = str.charAt(i);
 			String ros = str.substring(0, i) + str.substring(i + 1);
-
 			printPermutn(ros, ans + ch);
 		}
 	}
