@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author sanikab
- *
- */
-module Servlet {
-}
