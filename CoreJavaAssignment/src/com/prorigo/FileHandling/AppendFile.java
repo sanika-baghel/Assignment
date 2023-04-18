@@ -1,3 +1,5 @@
+//Java program to append text/string in a file
+
 package com.prorigo.FileHandling;
 
 import java.io.*;
