@@ -1,3 +1,4 @@
+//Write a Java program to display the system time.
 package com.assignment;
 
 public class SystemTime {
